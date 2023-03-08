@@ -37,15 +37,15 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
-    APP_ID = 6  # Your APP_ID from Telegram
-    API_HASH = "d4abfb49dc3eeb1aeb98ae0f581e"  # Your APP_HASH from Telegram
+    BOT_TOKEN = "6274998416:AAGwtr5aLX44D8WlJOv2FdtfAof6gpK3_q4"
+    APP_ID = 25748479  # Your APP_ID from Telegram
+    API_HASH = "a2605f5312dcc313c73eb484ec25e84a"  # Your APP_HASH from Telegram
     OWNER_ID = 12345  # Your telegram user id
     MESSAGE_DUMP = 0  # Your Private Group ID for logs
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
-    DB_URI = "mongodb_url"
+    DB_URI = "mongodb+srv://Lovely:LovelyMusic@lovely.zmqfspr.mongodb.net/?retryWrites=true&w=majority"
     DB_NAME = "alita"
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
